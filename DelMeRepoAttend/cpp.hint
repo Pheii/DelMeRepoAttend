@@ -1,0 +1,2 @@
+#define DELMEREPOATTEND_API __declspec(dllexport)
+#define DELMEREPOATTEND_API __declspec(dllimport)
