@@ -12,6 +12,7 @@ namespace UnitTest1
 		
 		TEST_METHOD(TestMethod1)
 		{
+			int num1, num2, sum; 
 			num1 = 2;
 			num2 = 3;
 			sum = num1 + num2;
