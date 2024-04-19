@@ -12,7 +12,10 @@ namespace UnitTest1
 		
 		TEST_METHOD(TestMethod1)
 		{
-			auto val  = testMe(5);
+			num1 = 2;
+			num2 = 3;
+			sum = num1 + num2;
+			auto val  = testMe(sum);
 			Assert::AreEqual(10, val);
 
 		}
